@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <style>
+    
+  </style>
+</head>
+<body>
+  
+  <form id="survey-form"><fieldset>
+    <legend>
+        <h1> CustomerSurvey Form</h1>
+
+    </legend>
+    <div>
+      <label for="first-name">First Name:</label>
+      <input type="text" placeholder="enter your first name"name="first-name" id="first-name" required>
+    </div>
+<br>
+    <div>
+      <label for="last-name">Last Name:</label>
+      <input type="text" placeholder="enter your last name"name="last-name" id="last-name" required>
+    </div>
+<br>
+    <div>
+      <label for="date-of-birth">Date of Birth:</label>
+      <input type="date" name="date-of-birth" id="date-of-birth" required>
+    </div>
+<br>
+    <div>
+      <label for="country">Country:</label>
+      <select name="country" id="country" required>
+        <option value="">Select a country</option>
+        <option value="India">India</option>
+        <option value="United States">United States</option>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Canada">Canada</option>
+        <option value="Australia">Australia</option>
+      </select>
+    </div>
+<br>
+    <div>
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" value="male" id="gender-male" > Male
+      <input type="radio" name="gender" value="female" id="gender-female" required> Female
+    </div>
+<br>
+    <div>
+      <label for="profession">Profession:</label>
+      <input type="text" placeholder=" enter your proffision"name="profession" id="profession" required>
+    </div>
+<br>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" placeholder="enter your Email" name="email" id="email" required>
+    </div>
+<br>
+    <div>
+      <label for="mobile-number">Mobile Number:</label>
+      <input type="tel" placeholder="123-456-7891" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+    </div>
+<br>
+    <div>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </div>
+    </fieldset>
+  </form>
+
+  <script>
+    
+  </script>
+</body>
+</html>
